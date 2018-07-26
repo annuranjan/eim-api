@@ -1,0 +1,73 @@
+//Issues:
+1. How to handle the table of EmployeeDetails as it has lot of fields and a lot of them are 'required' but it would be heck of a long form if the user 
+has to fill all the forms on one go. Also, for better user experience the form has to be split in different sections and 
+
+
+/*************************************************************************************
+/*************************************************************************************
+Establishment Table:
+____________________
+--------------------
+
+Column Name         Data Type       Description
+-----------------------------------------------
+ESTABLISHMENTCODE   Number          Employee Code
+FIRSTNAME           CHAR            First Name
+MIDDLENAME          CHAR            Middle Name
+LASTNAME            CHAR            Last Name
+DOMAINNAME          CHAR            Domain Name
+EMAIL               VARCHAR         Email Address
+REGDATE             VARCHAR         Date of Establishment Form
+STATECLIENT         DATE            State of Tracking work of Simple user
+STATEADMIN          NUMBER          State of Tracking work of Simple admin
+HRRIGHTS            NUMBER          HR Rights to Employee
+TRRIGHTS            NUMBER          TR Rights to Employees
+
+EmployeeDetails Table:
+______________________
+----------------------
+
+Column Name         Data Type       Description
+-----------------------------------------------
+ESTABLISHMENTCODE   Employee Code
+PD_DOB              Date of Birth
+PD_GENDER           Gender
+PD_NATIONALITY      Nationality
+PD_BLOODGROUP       BloodGroup
+PD_MARITALSTATUS
+PD_CATEGORY
+PD_RELIGION
+CD_Add              Address
+CD_CITY             
+CD_STATE            
+CD_PINCODE
+CD_PAdd             Permanent Address
+CD_PCITY
+CD_PSTATE
+CD_PPINCODE
+CD_PHONE
+CD_OEMAIL           Other Email
+ED_RELATION         Emergency Contact Person Relation
+ED_Add              Emergency Contact Person Address
+ED_CITY
+ED_STATE
+ED_MOBILE
+ID_PASSNUM          Passport Number
+ID_YOI              Year of Issue(Passport)
+ID_YOE              Year of Expiry(Passport)
+JD_EMPSTATUS        Employee Status
+JD_DOJ              Date of Joining
+JD_DOL              Date of Leaving
+JD_FUNCTIONS        Employee Function
+JD_DEPT             Department
+JD_DESIGNATION      Designation
+RD_EMPCODE          Report to Employee Code
+
+*********************************************************************
+Use enums for varialbe to store value in gender, Nationality, etc
+
+
+
+
+
+

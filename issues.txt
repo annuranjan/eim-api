@@ -1,0 +1,4 @@
+1.  Don't get proper error response(an empty object) in case of duplicate user signup.
+2.  user.controller.js flags put for the details of the correct usage of next() and return.
+3.  Do we have to provide a catch block for every async operation - will a catch block in the 
+    outer nested position handle the error in the async operation in the inner nested catch block. 
