@@ -87,6 +87,9 @@ const EmployeeDetails = mongoose.Schema({
     jd_designation: {
         type: String
     },
+    jd_salary: {
+        type: Number
+    },
     rd_empCode: {
         type: Number
     }
